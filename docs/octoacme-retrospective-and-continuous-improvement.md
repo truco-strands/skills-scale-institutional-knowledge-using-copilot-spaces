@@ -13,13 +13,19 @@ After each sprint, release, or important milestone. Also after incidents.
 - Follow-up on previous action items
 
 ## Running a Retrospective
-- Timebox: 45–75 minutes depending on team size
-- Use an anonymous idea board if needed to encourage candor
-- Prioritize 2–3 top action items to avoid overload
+**Facilitated by: Project Manager**
+
+- **Timebox**: 45–75 minutes depending on team size
+- **Attendees**: Core delivery team (PM, Developers, QA), plus Release Manager (for release retros), Security Lead (for security incidents), and other relevant roles as needed
+- **Format**: Use an anonymous idea board if needed to encourage candor
+- **Prioritization**: Prioritize 2–3 top action items to avoid overload
+- **Documentation**: Technical Writer captures key learnings for knowledge sharing (optional)
 
 ## Tracking Improvements
-- Add action items to the project backlog or issues with clear owners and timelines
-- Review outstanding actions in the weekly PM sync
+- **Project Manager**: Add action items to the project backlog or issues with clear owners and timelines
+- **Project Manager**: Review outstanding actions in the weekly PM sync
+- **Technical Writer**: Update process documentation based on agreed improvements
+- **All role owners**: Report on progress and impact of their action items
 
 ## Example Action Item Template
 - Title:
