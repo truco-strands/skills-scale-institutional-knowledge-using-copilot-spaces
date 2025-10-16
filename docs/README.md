@@ -123,9 +123,12 @@ Throughout the project lifecycle, OctoAcme teams maintain these essential artifa
 
 To leverage these documents with GitHub Copilot Spaces:
 
-1. Add relevant process documents to your `.copilot/` directory for context-aware assistance
-2. Reference the Project Charter in your project repository for AI-powered suggestions
-3. Use persona definitions to shape role-specific guidance from Copilot
+1. **Add relevant process documents** to your `.copilot/` directory for context-aware assistance:
+   - Copy process documents most relevant to your current project phase (e.g., Planning, Execution)
+   - Include the Roles and Personas document to help Copilot understand team structure
+   - Maintain the same filenames for consistency
+2. **Reference the Project Charter** in your project repository for AI-powered suggestions
+3. **Use persona definitions** to shape role-specific guidance from Copilot
 
 ## Contributing
 
