@@ -32,9 +32,13 @@ OctoAcme projects involve collaboration across multiple roles:
 - **Product Manager (PdM)**: Defines outcomes, prioritizes the backlog, and measures success
 - **Developers**: Implement features, write tests, and participate in design reviews
 - **QA/Testing**: Validate quality standards and acceptance criteria
+- **Release Manager**: Coordinates production deployments, ensures safe releases, and manages rollbacks
+- **Customer Success Manager**: Ensures customer satisfaction, gathers feedback, and advocates for customer needs
+- **Security Lead**: Integrates security throughout the lifecycle, reviews vulnerabilities, and coordinates incident response
+- **Technical Writer**: Creates and maintains user guides, API documentation, and process documentation
 - **Stakeholders**: Provide inputs, approvals, and strategic direction
 
-Each role has specific responsibilities and communication patterns to ensure effective collaboration.
+Each role has specific responsibilities and communication patterns to ensure effective collaboration. See the [Roles and Personas](./octoacme-roles-and-personas.md) document for detailed definitions and interaction patterns.
 
 ## Communication Strategy
 
