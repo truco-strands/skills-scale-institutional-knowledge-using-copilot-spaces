@@ -67,7 +67,11 @@ Security risks require special handling and rapid escalation:
 
 ### Security Incident Response
 When a security issue is identified:
-1. **Immediate notification** to Security Lead (within 1 hour)
+1. **Immediate notification** to Security Lead:
+   - Critical: Within 15 minutes
+   - High: Within 1 hour
+   - Medium: Within 4 hours
+   - Low: Within 24 hours
 2. **Security Lead assessment** of severity and scope
 3. **Incident response activation** if critical or high severity
 4. **Security patch planning** coordinated with Release Manager

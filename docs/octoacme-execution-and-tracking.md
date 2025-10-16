@@ -66,7 +66,7 @@ Use the project board (e.g., GitHub Projects) with columns: Backlog, Ready, In P
 ### Quality Gates
 Before marking work as "Done":
 - [ ] All acceptance criteria met and verified
-- [ ] Test coverage meets team standards (typically 80%+)
+- [ ] Test coverage meets team-defined standards (establish project-specific thresholds based on risk and complexity)
 - [ ] Code review approved by at least one team member
 - [ ] Security scan passing or vulnerabilities accepted by Security Lead
 - [ ] Documentation updated (user guides, API docs, or runbooks as applicable)
