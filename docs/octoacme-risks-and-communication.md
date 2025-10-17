@@ -20,9 +20,26 @@ Maintain a simple table with:
 - Monitor: review at weekly syncs and update status
 
 ## Stakeholder Communication
-- Identify stakeholder groups and communication needs (e.g., engineering, sales, support)
-- Provide regular updates (weekly or milestone-based)
-- Use a single source of truth (project README or release doc) for status
+**Coordinated by: Project Manager**
+
+### Stakeholder Mapping
+Identify stakeholder groups and their communication needs:
+
+| Stakeholder Group | Key Information Needs | Frequency | Owner |
+|-------------------|----------------------|-----------|-------|
+| Engineering Team | Technical decisions, blockers, dependencies | Daily | PM, Developers |
+| Product Leadership | Progress, risks, milestone status | Weekly | PM, Product Manager |
+| Customer Success | Feature availability, customer impact, known issues | Per release | Customer Success Manager |
+| Sales | Roadmap updates, competitive features | Monthly | Product Manager |
+| Support | Known issues, workarounds, documentation | Per release | Technical Writer, Customer Success |
+| Security & Compliance | Vulnerabilities, security patches, compliance status | Weekly | Security Lead |
+| Executive Sponsors | High-level status, major risks, budget/timeline | Monthly | PM, Product Manager |
+
+### Communication Best Practices
+- **Single source of truth**: Use project README or release doc for status
+- **Tiered updates**: Provide appropriate detail level for each audience
+- **Proactive communication**: Share risks and blockers early
+- **Two-way feedback**: Encourage questions and input from stakeholders
 
 ## Communication Templates
 Weekly Status Template:
@@ -37,6 +54,37 @@ Incident Communication
 - Expected timeline
 - Post-incident blameless retrospective scheduled
 
+## Security Risk Management
+**Led by: Security Lead**
+
+Security risks require special handling and rapid escalation:
+
+### Security Risk Categories
+- **Critical**: Immediate threat to data confidentiality, integrity, or availability
+- **High**: Significant vulnerability requiring mitigation before next release
+- **Medium**: Vulnerability that should be addressed in upcoming sprints
+- **Low**: Minor security improvement or hardening opportunity
+
+### Security Incident Response
+When a security issue is identified:
+1. **Immediate notification** to Security Lead:
+   - Critical: Within 15 minutes
+   - High: Within 1 hour
+   - Medium: Within 4 hours
+   - Low: Within 24 hours
+2. **Security Lead assessment** of severity and scope
+3. **Incident response activation** if critical or high severity
+4. **Security patch planning** coordinated with Release Manager
+5. **Post-incident review** to prevent recurrence
+
+### Security Communication Protocol
+- **Internal**: Security Lead notifies PM, Release Manager, and affected teams
+- **External**: Customer Success Manager coordinates customer communications (if customer-facing)
+- **Compliance**: Security Lead ensures regulatory reporting if required
+- **Transparency**: Blameless approach focused on learning and improvement
+
 ## Escalation Paths
-- Team-level -> PM -> Product Lead -> Sponsor
-- For security incidents, follow the security incident runbook and notify Security on-call
+- **Standard issues**: Team-level -> PM -> Product Lead -> Sponsor
+- **Security incidents**: Security Lead -> PM -> Product Lead + Security on-call (parallel notification)
+- **Customer escalations**: Customer Success Manager -> PM -> Product Lead
+- **Release blockers**: Release Manager -> PM -> Product Lead (with go/no-go decision framework)

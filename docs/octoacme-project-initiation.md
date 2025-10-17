@@ -32,6 +32,10 @@ Whenever a new project idea or feature proposal is ready to be explored.
 ## Initiation Checklist
 - [ ] One-pager completed and reviewed by Product Lead
 - [ ] Sponsor / Stakeholder alignment (email or meeting)
+- [ ] Initial security assessment completed by Security Lead
+- [ ] Customer context and impact reviewed by Customer Success Manager
+- [ ] Documentation scope identified with Technical Writer
+- [ ] Release strategy discussed with Release Manager
 - [ ] Decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
